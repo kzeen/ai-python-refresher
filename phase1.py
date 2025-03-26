@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # preliminaries
 from __future__ import print_function
 
@@ -15,8 +9,7 @@ from __future__ import print_function
 
 def add(a, b):
     "Return the sum of a and b"
-    "*** YOUR CODE HERE ***"
-
+    print("Passed a = %s and b = %s, returning a + b = %s" % (a, b, a + b))
     return 0
 
 
@@ -24,6 +17,13 @@ def add(a, b):
 
 
 #test here
+if __name__ == '__main__':
+    "This code runs when you invoke the script from the command line"
+    add(1, 2)
+    add(-1, 1)
+    add(0, 0)
+    add(100, 200)
+    add(-5, -7)
 
 
 # # Ex. 2: Buy Lots of Fruits
