@@ -10,7 +10,7 @@ from __future__ import print_function
 def add(a, b):
     "Return the sum of a and b"
     print("Passed a = %s and b = %s, returning a + b = %s" % (a, b, a + b))
-    return 0
+    return a + b
 
 
 # In[ ]:
